@@ -17,3 +17,10 @@ class print():
 timmy = print(9, 10)
 
 timmy.printValues()
+
+states = ["Delta", "Ogun", "Edo", "Lagos", "Anambra"]
+for name in states
+    print(f"{name}")
+for i in range(50)
+    if i%2 == 0
+        print(i)
