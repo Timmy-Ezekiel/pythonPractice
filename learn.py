@@ -1,3 +1,5 @@
+from film import Film
+
 name = input("Name: ")
 if name:
     print(f"The name you input is {name}")
@@ -17,3 +19,7 @@ class produce():
 timmy = produce(9, 10)
 
 timmy.printValues()
+
+film1 = Film("Avengers", "123hfh")
+
+film1.printDetails()
