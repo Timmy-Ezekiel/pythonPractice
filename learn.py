@@ -9,7 +9,10 @@ class print():
     
     def printValues(self)
         print(f"{this.x} and {this.y}")
+        self.run
 
+    def run(self)
+        print("Welcome")
 
 timmy = print(9, 10)
 
